@@ -14,6 +14,8 @@ creating an app inside this project using "startapp"
 using command instruction "python manage.py makemigrations" and then afterwards "python manage.py migrate"
 
 creating a superuser
+(username: admin)
+(password : engage2022)
 
 installing numpy in command prompt
 
