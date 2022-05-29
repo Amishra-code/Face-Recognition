@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Services{% endblock title %}
+{% block body %}
+<div class="mx-5 px-2 py-4">
+    <div class="panel panel-default ir-content-widget no-padding white-bg ir-overflow-hidden">
+    <div class="panel-heading ir-position-relative"><h2 class="text-uppercase"><i class="fa fa-question-circle fa-fw"></i> Frequenly Asked Questions</h2></div>
+    <div id="main_accordion" class="accordion no-padding">
+    <h3>What is a PNR?</h3>
+    <div>
+    <p>
+    <div>PNR - Passenger Name Record is an unique number that recognizes your booking.</div>
+    <div>PNR is a travel record of an individual or a group of individuals, maintained in CRS (Central Reservation System) database.</div>
+    <div>This code is generated only when the CRS gets full data of journey like passenger's name, gender, age, train number, journey class, berth preference, contact link, etc</div>
+    <div>PNR is per ticket and not for person. If multiple members are booked together on one ticket, then Only one PNR number will be allocated for it.</div>
+    <div><b>Railways has a 10-digit numerical PNR number.</b></div>
+    </p>
+    </div>
+    <h3>What use is of PNR?</h3>
+    <div>
+    <p>
+    <div>PNR is utilized to get the Confirmed or Waitlisted status of your booking along with the coach and seat numbers.</div>
+    <div>Basically PNR is used in "follow-up" process by which passengers are able to get updates about the status of their journey.</div>
+    <div>This 10-digit numerical PNR number of Railways is of great use to passengers, whose tickets are not confirmed.</div>
+    <div><b>PNR helps passengers to check whether their tickets got confirmed or not.</b></div>
+    </p>
+    </div>
+    <h3>Where would I find PNR?</h3>
+    <div>
+    <p>
+    <div>On a paper ticket released in a railway booking counter, the PNR number is on the top left of the ticket.</div>
+    <div>The PNR number on ticket might be split right into 3-7(digits) form (e.g. 890-1234567) on paper ticket.</div>
+    <div>On IRCTC e-ticket or any other agency e-ticket the PNR number can be on the top left of the ticket.</div>
+    <div>PNR might also be on SMS alert on your mobile if you have booked e-ticket and provided your mobile number.</div>
+    </div>
+    </div>
+{% endblock body %}

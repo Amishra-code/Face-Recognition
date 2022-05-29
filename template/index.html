@@ -1,0 +1,24 @@
+<!--
+    username : admin
+    password : engage2022
+-->
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+
+<div class="container my-4 text-center">
+  <h1>Railways</h1>
+</div>
+<div class="container my-4"></div>
+<div class="container-fluid carousel-item active">
+  <img src="/static/image/train.jpg" width="100%" height="0%" alt="...">
+  <div class="text-center py-4">
+  <h3>Click On the Button below to scan your face</h3>
+  <a href="/scan">
+  <button type="submit" class="btn btn-primary" id="scan" name="scan">Detect</button>
+  </a>
+  </div>
+</div>
+</div>
+
+{% endblock body %}
