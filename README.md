@@ -5,7 +5,7 @@ installing python
 
 installing django in the command prompt
 
-creating an envuronment for django 
+creating an environment for django 
 
 creating a project using "startproject" keyword
 
