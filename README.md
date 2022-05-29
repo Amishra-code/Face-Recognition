@@ -21,7 +21,7 @@ installing numpy in command prompt
 
 installing opencv in command promp
 
-installing face_recognition (along with dlib)
+installing face_recognition (along with cmake + dlib)
 
 running this project by entering command "python manage.py runserver"
 
