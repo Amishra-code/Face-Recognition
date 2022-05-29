@@ -1,4 +1,5 @@
 # Face-Recognition
+This is an application for checking tickets of several passengers entering in a train by detecting their faces
 
 installing python 
 
@@ -10,13 +11,19 @@ creating a project using "startproject" keyword
 
 creating an app inside this project using "startapp"
 
+using command instruction "python manage.py makemigrations" and then afterwards "python manage.py migrate"
+
+creating a superuser
+
 installing numpy in command prompt
 
 installing opencv in command promp
 
 installing face_recognition (along with dlib)
 
+running this project by entering command "python manage.py runserver"
+
 
 """
-Kindly go through the official documentation websites for fetching the install instructions
+Kindly go through the official websites(documentation) for fetching the install instructions
 """
