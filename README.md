@@ -1,6 +1,7 @@
 # Face-Recognition
 This is an application for checking tickets of several passengers entering in a train by detecting their faces
 
+<!--
 installing python 
 
 installing django in the command prompt
@@ -24,6 +25,7 @@ installing opencv in command promp
 installing face_recognition (along with cmake + dlib)
 
 running this project by entering command "python manage.py runserver"
+-->
 
 
 """
